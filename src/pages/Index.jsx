@@ -56,7 +56,7 @@ const Index = () => {
         </Box>
       </VStack>
       <Flex justify="center">
-        <Button colorScheme="blue" size="lg" leftIcon={<FaPlus />}>
+        <Button colorScheme="blue" size="lg" leftIcon={<FaPlus />} onClick={() => (window.location.href = "/photos")}>
           See More
         </Button>
       </Flex>
